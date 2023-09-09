@@ -6,6 +6,6 @@ import lombok.Data;
 @Data
 @Builder
 public class MapGrid {
-
+    int[][] grid;
 
 }
