@@ -1,8 +1,12 @@
 package src.Interface;
 
 public interface Tower {
+    private String[] upgrades;
+    private int[][] position;
+    private int[][] upgradePath;
+    private String imgPath;
+    
     public void setPosition();
-    public void setLeftLevel();
-    public void setRightLevel();
-
+    public void upgrade();
+    public void animate();
 }
