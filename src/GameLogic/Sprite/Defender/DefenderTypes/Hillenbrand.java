@@ -6,6 +6,7 @@ import src.GameLogic.Sprite.Defender.DefenderSkeleton;
 @Data
 @Builder
 public class Hillenbrand extends DefenderSkeleton {
+
     @Override
     public void setPosition() {
 

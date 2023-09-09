@@ -8,11 +8,6 @@ import lombok.Data;
 public class MapGrid {
     private int[][] grid;
     private int gridSize;
-
-    public MapGrid(int size) {
-        gridSize = size;
-        setupGrid();
-    }
     
     public void setupGrid() {
         grid = new int[gridSize][gridSize];
