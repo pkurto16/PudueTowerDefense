@@ -7,4 +7,23 @@ import src.GameLogic.Sprite.Enemy.EnemySkeleton;
 @Data
 public class IndianaUniversity extends EnemySkeleton {
 
+    @Override
+    public int getPosX() {
+        return 0;
+    }
+
+    @Override
+    public int getPosY() {
+        return 0;
+    }
+
+    @Override
+    public void changeHealth() {
+
+    }
+
+    @Override
+    public void die() {
+
+    }
 }
