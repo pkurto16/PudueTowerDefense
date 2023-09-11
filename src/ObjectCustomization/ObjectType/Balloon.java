@@ -1,4 +1,4 @@
-package src.Interface;
+package src.ObjectCustomization.ObjectType;
 
 public interface Balloon {
     public int getPosX();

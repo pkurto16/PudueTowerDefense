@@ -1,6 +1,6 @@
 package src.GameLogic.Sprite.Enemy;
 
-import src.Interface.Balloon;
+import src.ObjectCustomization.ObjectType.Balloon;
 public abstract class EnemySkeleton implements Balloon {
     private int posX;
     private int posY;

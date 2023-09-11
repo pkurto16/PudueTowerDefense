@@ -1,12 +1,13 @@
 package src.GameLogic.Sprite.Defender;
 import lombok.Builder;
-import src.Interface.Tower;
+import src.ObjectCustomization.ObjectType.Tower;
+import src.ObjectCustomization.Traits.Upgrade;
+
 @Builder
 public abstract class DefenderSkeleton implements Tower {
     private String[] upgrades;
     private int[][] position;
-    @Builder.Default
-    private int[][] upgradePath = new int[4][2];
+    private Upgrade[][] upgradePath;
     private String imgPath;
 
 }
