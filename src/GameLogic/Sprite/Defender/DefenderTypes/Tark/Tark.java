@@ -1,12 +1,11 @@
-package src.GameLogic.Sprite.Defender.DefenderTypes;
+package src.GameLogic.Sprite.Defender.DefenderTypes.Tark;
 
 import lombok.Builder;
 import lombok.Data;
 import src.GameLogic.Sprite.Defender.DefenderSkeleton;
 @Data
 @Builder
-public class Hillenbrand extends DefenderSkeleton {
-
+public class Tark extends DefenderSkeleton {
     @Override
     public void setPosition() {
 

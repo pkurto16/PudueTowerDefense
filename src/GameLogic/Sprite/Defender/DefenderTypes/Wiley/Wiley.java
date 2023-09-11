@@ -1,4 +1,4 @@
-package src.GameLogic.Sprite.Defender.DefenderTypes;
+package src.GameLogic.Sprite.Defender.DefenderTypes.Wiley;
 
 import lombok.Builder;
 import lombok.Data;

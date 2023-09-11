@@ -5,9 +5,8 @@ import src.ObjectCustomization.Traits.Upgrade;
 
 @Builder
 public abstract class DefenderSkeleton implements Tower {
-    private String[] upgrades;
-    private int[][] position;
-    private Upgrade[][] upgradePath;
-    private String imgPath;
-
+    protected String[] upgrades;
+    protected int[][] position;
+    protected Upgrade[][] upgradePath;
+    protected String imgPath;
 }
