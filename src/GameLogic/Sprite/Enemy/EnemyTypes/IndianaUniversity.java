@@ -18,7 +18,7 @@ public class IndianaUniversity extends EnemySkeleton {
     }
 
     @Override
-    public void changeHealth() {
+    public void changeHealth(int healthSubtracted) {
 
     }
 
