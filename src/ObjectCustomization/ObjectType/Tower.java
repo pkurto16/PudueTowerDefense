@@ -1,6 +1,4 @@
 package src.ObjectCustomization.ObjectType;
+@Deprecated
 public interface Tower {
-    public void setPosition();
-    public void upgrade();
-    public void animate();
 }

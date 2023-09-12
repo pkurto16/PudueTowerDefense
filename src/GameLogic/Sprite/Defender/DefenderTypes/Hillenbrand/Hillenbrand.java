@@ -25,8 +25,10 @@ public class Hillenbrand extends DefenderSkeleton {
     }
 
     private void setupUpgradePath(){
-        super.upgradePath[0] = dataAnalysisPath();
-        super.upgradePath[1] = techUpdatePath();
+        Upgrade[][] newUpgradePath = new Upgrade[2][4];
+        newUpgradePath[0] = dataAnalysisPath();
+        newUpgradePath[1] = techUpdatePath();
+        super.setUpgradePath(newUpgradePath);
     }
 
     private Upgrade[] techUpdatePath() {
