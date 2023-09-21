@@ -11,9 +11,9 @@ public class MapGrid {
     
     public void setupGrid() {
         grid = new int[gridSize][gridSize];
-        for (int i = 0; i < gridSize; i++) {
+        for (int i = 1; i < gridSize; i++) {
             for (int j = 0; j < gridSize; j++) {
-                grid[i][j] = 0;
+                grid[i][j] = 1;
             }
         }
     }
