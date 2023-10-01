@@ -20,8 +20,6 @@ public class Window {
                 map.addLayoutComponent(idNum,new GridPosition(j,i,j+i*Runner.mapGrid.getGridSize()));
             }
         }
-        //todo:
-        // You can add other Swing components to the JFrame here
-        // For example, you can add buttons, labels, and more.
+        frame.setVisible(true);
     }
 }
