@@ -7,7 +7,7 @@ import lombok.Data;
 @Builder
 public class MapGrid {
     private int[][] grid;
-    private int gridSize;
+    @Builder.Default int gridSize = 20;
     
     public void setupGrid() {
         grid = new int[gridSize][gridSize];
