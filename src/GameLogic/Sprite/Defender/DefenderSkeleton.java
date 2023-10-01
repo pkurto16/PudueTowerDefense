@@ -5,7 +5,6 @@ import src.ObjectCustomization.ObjectType.Tower;
 import src.ObjectCustomization.Traits.Upgrade;
 
 @Data
-@Builder
 public abstract class DefenderSkeleton {
     private String[] upgrades;
     private int[][] position;
