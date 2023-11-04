@@ -1,1 +1,1 @@
-This is purdue tower defense, a parody of bloons tower defense
+a parody of bloons tower defense
